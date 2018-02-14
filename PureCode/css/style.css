@@ -1,0 +1,83 @@
+@font-face {
+  font-family: OpenSans;
+  src: url(../fonts/open_sans/OpenSans-ExtraBold.ttf);
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url(../fonts/open_sans/OpenSans-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url(../fonts/open_sans/OpenSans-SemiBold.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url(../fonts/open_sans/OpenSans-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url(../fonts/open_sans/OpenSans-Light.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/roboto/Roboto-Black.ttf);
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/roboto/Roboto-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/roboto/Roboto-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/roboto/Roboto-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/roboto/Roboto-Thin.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/roboto/Roboto-Italic.ttf);
+  font-style: italic;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: OpenSans, Arial sans-serif;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
