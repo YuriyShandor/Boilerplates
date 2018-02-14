@@ -2,6 +2,8 @@
 
 @import "./_components/_open-sans.scss";
 @import "./_components/_roboto.scss";
+@import "./_components/_lato.scss";
+@import "./_components/_nav-bar.scss";
 
 * {
   -webkit-box-sizing: border-box;
@@ -34,6 +36,6 @@ body {
 
 }
 
-@media only screen and (max-width : 567px) {
+@media only screen and (max-width : 576px) {
 
 }
