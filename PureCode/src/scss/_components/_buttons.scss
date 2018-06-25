@@ -1,88 +1,10 @@
-.dizair-btn {
-  outline: none;
-  border: 1px solid transparent;
-  border-radius: 37.5px;
-  text-decoration: none;
-  width: 255px;
-  height: 48px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 18px;
-  font-weight: 700;
-  cursor: pointer;
-  transition: all, .25s;
 
-  &_red {
-    background: $red;
-    color: #fff;
+@media only screen and (max-width : 1199px) {
 
-    &:hover {
-      font-weight: 400;
-      color: $red;
-      background: #fff;
-      border: 1px solid $red;
-    }
-  }
-
-  &_white {
-    font-weight: 400;
-    color: $red;
-    background: #fff;
-    border: 1px solid $red;
-
-    &:hover {
-      font-weight: 700;
-      background: $red;
-      color: #fff;
-    }
-  }
-
-  &_git {
-    width: 309px;
-    position: relative;
-    background: #444;
-    color: #fff;
-    justify-content: flex-start;
-
-    &:hover {
-      background: $red;
-    }
-
-    img {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      left: 10px;
-    }
-
-    .line {
-      position: absolute;
-      top: 0;
-      left: 52px;
-      width: 1px;
-      height: 100%;
-      background-color: $black;
-    }
-
-    span {
-      margin-left: 92px;
-    }
-  }
 }
 
 @media only screen and (max-width : 991px) {
-  .dizair-btn {
-    width: 225px;
-    height: 45px;
-    font-size: 16px;
 
-    &_git {
-      span {
-        margin-left: 70px;
-      }
-    }
-  }
 }
 
 @media only screen and (max-width : 767px) {
