@@ -1,0 +1,41 @@
+$bg: #000;
+$col: #c3c3c3;
+
+@import "./_components/_josefin-sans.scss";
+
+.container {
+  width: 1170px;
+
+  .row {
+    width: 100%;
+    padding: 0 15px;
+
+    div {
+      width: 10%;
+      background: $bg;
+
+      h1 {
+        color: $col;
+      }
+    }
+  }
+}
+
+h1 {
+  font-family: JosefinSans;
+  color: blue;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+p {
+  color: #000;
+}
+
+.box {
+  width: 200px;
+  height: 150px;
+  display: flex;
+  border-radius: 10px;
+  background: #aabb55;
+}

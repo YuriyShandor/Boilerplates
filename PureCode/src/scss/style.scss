@@ -1,0 +1,247 @@
+// to compile...
+
+$red: #ad1a1c;
+$black: #393939;
+
+@import "./_components/_grid.scss";
+@import "./_components/_buttons.scss";
+@import "./_components/_hamburger.scss";
+@import "./_components/_nav-bar.scss";
+
+* {
+  box-sizing: border-box;
+  //border: 1px solid red;
+}
+
+body {
+  font-family: Helvetica, Arial sans-serif;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  position: relative;
+}
+
+
+// Header
+
+.header {
+  width: 100%;
+  padding: 20px 0;
+  background: transparent;
+
+  &-block {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__logo {
+      text-decoration: none;
+      font-size: 32px;
+      font-weight: 700;
+      color: #c61e20;
+      transition: all, 0.25s;
+
+      &:hover {
+        color: darken(#c61e20, 5%);
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width : 1199px) {
+
+}
+
+@media only screen and (max-width : 991px) {
+  .header {
+    padding: 15px 0;
+  }
+}
+
+@media only screen and (max-width : 720px) {
+  .header {
+    .container {
+      width: 100%;
+    }
+
+    &-block {
+      &__logo {
+        margin-left: 25px;
+        font-size: 26px;
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width : 520px) {
+  .header {
+    &-block {
+      &__logo {
+        margin-left: 15px;
+        font-size: 24px;
+      }
+    }
+  }
+}
+
+
+
+
+@media only screen and (max-width : 1199px) {
+
+}
+
+@media only screen and (max-width : 991px) {
+
+}
+
+@media only screen and (max-width : 767px) {
+
+}
+
+@media only screen and (max-width : 520px) {
+
+}
+
+
+@media only screen and (max-width : 1199px) {
+
+}
+
+@media only screen and (max-width : 991px) {
+
+}
+
+@media only screen and (max-width : 767px) {
+
+}
+
+@media only screen and (max-width : 520px) {
+
+}
+
+
+@media only screen and (max-width : 1199px) {
+
+}
+
+@media only screen and (max-width : 991px) {
+
+}
+
+@media only screen and (max-width : 767px) {
+
+}
+
+@media only screen and (max-width : 520px) {
+
+}
+
+
+@media only screen and (max-width : 1199px) {
+
+}
+
+@media only screen and (max-width : 991px) {
+
+}
+
+@media only screen and (max-width : 767px) {
+
+}
+
+@media only screen and (max-width : 520px) {
+
+}
+
+
+@media only screen and (max-width : 1199px) {
+
+}
+
+@media only screen and (max-width : 991px) {
+
+}
+
+@media only screen and (max-width : 767px) {
+
+}
+
+@media only screen and (max-width : 520px) {
+
+}
+
+
+@media only screen and (max-width : 1199px) {
+
+}
+
+@media only screen and (max-width : 991px) {
+
+}
+
+@media only screen and (max-width : 767px) {
+
+}
+
+@media only screen and (max-width : 520px) {
+
+}
+
+
+
+@media only screen and (max-width : 1199px) {
+
+}
+
+@media only screen and (max-width : 991px) {
+
+}
+
+@media only screen and (max-width : 767px) {
+
+}
+
+@media only screen and (max-width : 520px) {
+
+}
+
+
+@media only screen and (max-width : 1199px) {
+
+}
+
+@media only screen and (max-width : 991px) {
+
+}
+
+@media only screen and (max-width : 767px) {
+
+}
+
+@media only screen and (max-width : 520px) {
+
+}
+
+
+@media only screen and (max-width : 1199px) {
+
+}
+
+@media only screen and (max-width : 991px) {
+
+}
+
+@media only screen and (max-width : 767px) {
+
+}
+
+@media only screen and (max-width : 520px) {
+
+}
